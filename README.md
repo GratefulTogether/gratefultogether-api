@@ -103,10 +103,9 @@ Response:
         "user_id": 1,
         "message": "I fed the feral cat tuna, and it made me happy this morning.",     
         "created_at": "2023-08-23", 
-        "updated_at": ""
+        "updated_at": "2023-08-23"
     }
 }
 ```
 
----
 
