@@ -56,7 +56,7 @@ workflows:
           post-steps:
             - run:
                 name: migrate
-                command: heroku run -a $HEROKU_APP_NAME rails db:migrate
+                command: heroku run -a $HEROKU_APP_NAME rails db:{drop,create,migrate,seed}
           filters:
             branches:
               only:
