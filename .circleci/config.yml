@@ -5,7 +5,7 @@ orbs:
 jobs: # a collection of steps
   build-and-test: # runs not using Workflows must have a `build` job as entry point
     docker: # run the steps with Docker
-      - image: cimg/ruby:3.2.2 # if you're using ruby version >= 3.0, use cimg/ruby:3.x.y 
+      - image: cimg/ruby:3.2.2 # if you're using ruby version >= 3.0, use cimg/ruby:3.x.y
         environment: # environment variables for primary container
           BUNDLE_JOBS: 3
           BUNDLE_RETRY: 3
@@ -46,18 +46,33 @@ jobs: # a collection of steps
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
           path: test_results
       # See https://circleci.com/docs/2.0/deployment-integrations/ for example deploy configs
+  deploy:
+    docker:
+      - image: cimg/ruby:3.2.2
+    steps:
+      - checkout
+      - run:
+          name: Deploy Main to Heroku
+          command: |
+            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git main
 workflows:
   build-test-deploy:
     jobs:
       - build-and-test
-      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+      - deploy:
           requires:
             - build-and-test
-          post-steps:
-            - run:
-                name: migrate
-                command: heroku run -a $HEROKU_APP_NAME rails db:{migrate}
           filters:
             branches:
-              only:
-                - main
+              only: main
+      # - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+      #     requires:
+      #       - build-and-test
+      #     post-steps:
+      #       - run:
+      #           name: migrate
+      #           command: heroku run -a $HEROKU_APP_NAME rails db:{migrate}
+      #     filters:
+      #       branches:
+      #         only:
+      #           - main
