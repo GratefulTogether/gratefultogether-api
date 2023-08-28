@@ -45,6 +45,7 @@ group :development, :test do
   gem 'faker'
   gem 'pry'
   gem 'shoulda-matchers'
+  gem 'action-cable-testing'
 end
 
 group :test do 
