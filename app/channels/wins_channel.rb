@@ -1,6 +1,7 @@
 class WinsChannel < ApplicationCable::Channel
   def subscribed
-    stream_for "wins_channel"
+    wins = 
+    stream_for wins
   end
 
   def unsubscribed
