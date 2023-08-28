@@ -3,4 +3,11 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  resources :users do 
+    resources :wins, only: [:create]
+  end
+
+  resources :wins, only: [:index]
+  mount ActionCable.server => "/cable"
 end
