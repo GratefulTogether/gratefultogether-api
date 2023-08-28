@@ -1,7 +1,7 @@
 class WinsChannel < ApplicationCable::Channel
   def subscribed
-    wins = 
-    stream_for wins
+    users = User.find(params[:user])
+    stream_for users
   end
 
   def unsubscribed
