@@ -6,13 +6,12 @@ Rails.application.routes.draw do
 
   namespace :api do 
     namespace :v1 do 
-      resources :users do 
-        resources :wins, only: [:create]
-      end
-
       resources :wins, only: [:index]
+      resources :users do 
+        resources :wins, only: [:create], controller: "user_wins"
+      end
     end
   end
     
-  mount ActionCable.server => "/"
+  mount ActionCable.server => "/cable"
 end
