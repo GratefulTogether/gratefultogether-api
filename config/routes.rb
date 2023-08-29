@@ -6,10 +6,7 @@ Rails.application.routes.draw do
 
   namespace :api do 
     namespace :v1 do 
-      resources :wins, only: [:index]
-      resources :users do 
-        resources :wins, only: [:create], controller: "user_wins"
-      end
+      resources :wins, only: [:index, :create]
     end
   end
     
