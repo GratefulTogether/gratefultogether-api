@@ -9,9 +9,9 @@ class WinsChannel < ApplicationCable::Channel
     stream_from "wins_channel"
   end
 
-  def receive(data)
-    ActionCable.server.broadcast(wins, data)
-  end
+  # def receive(data)
+  #   ActionCable.server.broadcast(wins, data)
+  # end
 
   def unsubscribed
   end
