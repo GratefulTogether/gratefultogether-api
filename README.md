@@ -16,6 +16,7 @@ Example response:
             "id": 1,
             "type": "win", 
             "attributes": {
+                "user_name": "Neato",
                 "entry": "slept well",
                 "created_at": "2023-08-24"
             }
@@ -24,6 +25,7 @@ Example response:
             "id": 2,
             "type": "win", 
             "attributes": {
+                "user_name": "Circe",
                 "entry": "love my cats",
                 "created_at": "2023-08-24"
             }
@@ -46,6 +48,7 @@ Example response:
             "id": 1,
             "type": "win", 
             "attributes": {
+                "user_name": "Wolfie",
                 "entry": "slept well",
                 "created_at": "2023-08-24"
             }
@@ -54,6 +57,7 @@ Example response:
             "id": 2,
             "type": "win", 
             "attributes": {
+                "user_name": "Squeaky",
                 "entry": "love my cats",
                 "created_at": "2023-08-24"
             }
@@ -62,6 +66,7 @@ Example response:
             "id": 3,
             "type": "win", 
             "attributes": {
+                "user_name": "Maggie",
                 "entry": "smelled some rain",
                 "created_at": "2023-08-24"
             }
@@ -70,6 +75,7 @@ Example response:
             "id": 4,
             "type": "win", 
             "attributes": {
+                "user_name": "Ink-Jet Printer",
                 "entry": "grateful for coffee",
                 "created_at": "2023-08-24"
             }
