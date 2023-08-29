@@ -9,14 +9,17 @@ class Api::V1::WinsController < ApplicationController
   end
 
   def create
-    # win = Win.new(win_params)
-    # win = Win.find(win_params[:user_id])
-    # if user.save
-    #   serialized_data = ActiveModelSerializers::Adapter::Json.new(
-    #     WinSerializer.new(win)
-    #   ).serializable_hash
-    #   WinsChannel.broadcast_to user, serialized_data
-    #   head :ok
-    # end
+    user = User.find(params[:user_id])
+    win = user.wins.new(entry: params[:message])
+    if win.save
+      WinsChannel.broadcast_to(@wins, WinSerializer.new(win))
+      head :ok
+    end
+  end
+
+  private
+
+  def win_params
+    params.permit(:entry)
   end
 end

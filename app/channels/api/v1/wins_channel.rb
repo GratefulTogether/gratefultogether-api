@@ -1,4 +1,4 @@
-class WinsChannel < ApplicationCable::Channel
+class Api::V1::WinsChannel < ApplicationCable::Channel
   def subscribed
     if params[:date]
       wins = Win.all_by_date(params[:date])
@@ -7,6 +7,10 @@ class WinsChannel < ApplicationCable::Channel
     end
     stream_for wins
   end
+
+  # def receive(data)
+  #   ActionCable.server.broadcast("chat_#{params[:room]}", data)
+  # end
 
   def unsubscribed
   end
