@@ -1,4 +1,4 @@
-class WinsChannel < ApplicationCable::Channel
+class Api::V1::WinsChannel < ApplicationCable::Channel
   def subscribed
     if params[:date]
       wins = Win.all_by_date(params[:date])
