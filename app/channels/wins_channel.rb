@@ -1,7 +1,11 @@
 class WinsChannel < ApplicationCable::Channel
   def subscribed
-    users = User.find(params[:user])
-    stream_for users
+    if params[:date]
+      wins = Win.all_by_date(params[:date])
+    else
+      wins = Win.all_today
+    end
+    stream_from wins
   end
 
   def unsubscribed

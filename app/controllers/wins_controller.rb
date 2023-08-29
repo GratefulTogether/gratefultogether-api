@@ -1,4 +1,8 @@
 class WinsController < ApplicationController
+  def index
+    
+  end
+
   def create
     win = Win.new(win_params)
     win = Win.find(win_params[:user_id])
