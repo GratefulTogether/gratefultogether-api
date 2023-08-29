@@ -103,13 +103,14 @@ Response:
 
 ``` 
 {
-    "id": 1, 
-    "type": "win",
-    "attributes": {
-        "user_id": 1,
-        "message": "I fed the feral cat tuna, and it made me happy this morning.",     
-        "created_at": "2023-08-23", 
-        "updated_at": "2023-08-23"
+    "data": {
+        "id": "42",
+        "type": "win",
+        "attributes": {
+            "user_name": "Wolfie",
+            "entry": "I fed the feral cat tuna, and it made me happy this morning.",
+            "created_at": "2023-08-29T19:16:04.580Z"
+        }
     }
 }
 ```
