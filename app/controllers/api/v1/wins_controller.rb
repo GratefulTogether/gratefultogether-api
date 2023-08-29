@@ -12,7 +12,7 @@ class Api::V1::WinsController < ApplicationController
     user = User.find(params[:user_id])
     win = user.wins.new(entry: params[:message])
     if win.save
-      WinsChannel.broadcast_to(@wins, WinSerializer.new(win))
+      ActionCable.server.broadcast "wins_channel", WinSerializer.new(win)
       render json: WinSerializer.new(win), status: :created
     end
   end

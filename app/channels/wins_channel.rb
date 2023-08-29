@@ -5,9 +5,8 @@ class WinsChannel < ApplicationCable::Channel
     # else
     #   wins = Win.all_today
     # end
-    puts "blah di blah"
-    require 'pry'; binding.pry
-    stream_for wins
+    
+    stream_from "wins_channel"
   end
 
   def receive(data)
