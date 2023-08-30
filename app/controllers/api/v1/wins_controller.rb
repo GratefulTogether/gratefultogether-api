@@ -14,6 +14,8 @@ class Api::V1::WinsController < ApplicationController
     if win.save
       ActionCable.server.broadcast "wins_channel", WinSerializer.new(win)
       render json: WinSerializer.new(win), status: :created
+    else
+      render json: {errors: win.errors.full_messages}, status: :unprocessable_entity
     end
   end
 
