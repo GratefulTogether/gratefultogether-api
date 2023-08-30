@@ -47,7 +47,7 @@ RSpec.describe "wins search" do
       parsed[:data].each do |win|
         expect(win[:attributes][:created_at].to_date).to eq("2023-08-01".to_date)
       end
-      
+
       expect(parsed[:data][0][:attributes][:entry]).to eq("I found a loaf of bread")
       expect(parsed[:data][0][:type]).to eq("win")
       expect(parsed[:data][0][:attributes]).to have_key(:user_name)
