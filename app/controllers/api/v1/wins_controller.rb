@@ -18,10 +18,4 @@ class Api::V1::WinsController < ApplicationController
       render json: {errors: win.errors.full_messages}, status: :unprocessable_entity
     end
   end
-
-  private
-
-  def win_params
-    params.permit(:entry)
-  end
 end
