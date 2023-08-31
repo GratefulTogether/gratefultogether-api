@@ -86,5 +86,4 @@ Rails.application.configure do
 
   # config.action_cable.url = "ws://gratefultogether-api-49ea7cf50543.herokuapp.com/cable"
   # config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/, nil]
-  # config.action_cable.mount_path="ws://gratefultogether-api-49ea7cf50543.herokuapp.com/cable"
 end
