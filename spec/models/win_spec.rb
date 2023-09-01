@@ -35,8 +35,8 @@ RSpec.describe Win, type: :model do
 
     it '#all_today' do 
       user = create(:user)
-      win_1 = create(:win, user: user)
-      win_2 = create(:win, user: user)
+      win_1 = create(:win, user: user, created_at: Date.today)
+      win_2 = create(:win, user: user, created_at: Date.today)
 
       today_wins = Win.all_today
       expect(today_wins.count).to eq(2)

@@ -4,8 +4,8 @@
 This is the Backend API for the [Grateful Together App](). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal.
 
 ### Preview of App:
-Live Deployment link
-[Frontend Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
+[Grateful Together App](https://gratefultogether.vercel.app/)
+[Front End Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
 
 
 ### Description:
