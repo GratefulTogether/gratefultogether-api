@@ -1,26 +1,15 @@
 # Grateful Together API
 
 ## Abstract: 
-This is the Backend API for the [Grateful Together App](https://www.FIX-THIS.com). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal.
+This is the Backend API for the [Grateful Together App](). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal.
 
 ### Preview of App:
 Live Deployment link
 [Frontend Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
 
-Add GIF here
 
-### Context:
+### Description:
 Collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
-
-### Contributors
-<table>
-  <tr>
-    <td> Kailey Kaes: <a href="https://github.com/kaileykaes">Github</td>
-    <td> Jesse Sorman: <a href="https://github.com/jesse193">Github</td>
-    <td> K.D. Hubbard: <a href="https://github.com/kdhubb">Github</td>
-    <td> Steven Stackhouse: <a href="https://github.com/stackmm">Github</td>
-  </tr>
-</table>
 
 ### Learning Goals:
 
@@ -65,11 +54,12 @@ Returns all gratitude entries for a specific date (add the date in query paramet
 ```
 GET /api/v1/wins?date=2023-08-31
 ```
-
 Post a new gratitude entry: 
 ```
 POST /api/v1/wins
 ```
+An invalid date for a POST request will return an "unprocessable_entity" error
+
 
 #### JSON Contract
 
@@ -184,5 +174,14 @@ Response:
     }
 }
 ```
+### Contributors
+<table>
+  <tr>
+    <td> Kailey Kaes: <a href="https://github.com/kaileykaes">Github</td>
+    <td> Jesse Sorman: <a href="https://github.com/jesse193">Github</td>
+    <td> K.D. Hubbard: <a href="https://github.com/kdhubb">Github</td>
+    <td> Steven Stackhouse: <a href="https://github.com/stackmm">Github</td>
+  </tr>
+</table>
 
 
