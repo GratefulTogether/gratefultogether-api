@@ -199,10 +199,10 @@ New Technologies implemented:
 ### Contributors
 <table>
   <tr>
-    <td> Kailey Kaes: <a href="https://github.com/kaileykaes">Github</td>
-    <td> Jesse Sorman: <a href="https://github.com/jesse193">Github</td>
-    <td> K.D. Hubbard: <a href="https://github.com/kdhubb">Github</td>
-    <td> Steven Stackhouse: <a href="https://github.com/stackmm">Github</td>
+    <td> Kailey Kaes: <a href="https://github.com/kaileykaes">Github, <a href="https://linkedin.com/in/kaileykaes" >LinkedIn</td>
+    <td> Jesse Sorman: <a href="https://github.com/jesse193">Github, <a href="https://www.linkedin.com/in/jesse-sorman/" >LinkedIn</td>
+    <td> K.D. Hubbard: <a href="https://github.com/kdhubb">Github, <a href="https://www.linkedin.com/in/k-d-hubbard/" >LinkedIn</td>
+    <td> Steven Stackhouse: <a href="https://github.com/stackmm">Github, <a href="https://www.linkedin.com/in/steven-stackhouse/" >LinkedIn</td>
   </tr>
 </table>
 
