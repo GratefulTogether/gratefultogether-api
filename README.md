@@ -1,28 +1,21 @@
 # Grateful Together API
 
-## Abstract: 
-This is the Backend API for the [Grateful Together App](). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal.
+## Description: 
+This is the Backend API for the [Grateful Together App](). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal. Collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
 
 ### Preview of App:
 [Grateful Together App](https://gratefultogether.vercel.app/)
 [Front End Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
 
-
-### Description:
-Collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
-
-### Learning Goals:
-
-Develop a fullstack application in collaboration with a frontend team. Specifically, the backend team was tasked with creating a RESTful API service for the Grateful Together application, implementing at least one new technology. Our team also learned and executed an agile process from planning to development, through production, as well as a CI/CD process using CircleCI. 
-
-New Technologies implemented:
-- ActionCable
-- WebSockets
-- Action-Cable-Testing
-- CI/CD with CircleCI
-
 ### Tech Stack
 - Ruby, Rails, WebSockets, ActiveRecord, PostgreSQL, Action-Cable-Testing, SimpleCov, RSpec, CI/CD with CircleCI
+
+<div align="center">  
+    <a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
+    <a href="https://rubyonrails.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/rails-original-wordmark.svg" alt="Rails" height="50" /></a>  
+    <a href="https://www.ruby-lang.org/en/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/ruby-original-wordmark.svg" alt="CSS3" height="50" /></a>   
+    <a href="https://redis.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redis-original-wordmark.svg" alt="CSS3" height="50" /></a>   
+</div>
 
 ## Usage
 
@@ -187,6 +180,17 @@ Response:
     }
 }
 ```
+### Learning Goals:
+
+Develop a fullstack application in collaboration with a frontend team. Specifically, the backend team was tasked with creating a RESTful API service for the Grateful Together application, implementing at least one new technology. Our team also learned and executed an agile process from planning to development, through production, as well as a CI/CD process using CircleCI. 
+
+New Technologies implemented:
+- ActionCable
+- WebSockets
+- Action-Cable-Testing
+- CI/CD with CircleCI
+
+---
 ### Contributors
 <table>
   <tr>
