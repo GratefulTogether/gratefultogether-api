@@ -3,7 +3,7 @@
 ## Description: 
 This is the Backend API for the [Grateful Together App](https://gratefultogether-68rtro4pr-caliham.vercel.app/). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal. This was a collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
 
-### Preview of App:
+### Application Links:
 [Grateful Together App](https://gratefultogether-68rtro4pr-caliham.vercel.app/)
 
 [Front End Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
