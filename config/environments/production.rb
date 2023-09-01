@@ -84,7 +84,8 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_cable.url = "ws://gratefultogether-api-49ea7cf50543.herokuapp.com/cable"
-  config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/, nil]
+  config.action_cable.mount_path = "/cable"
+  config.action_cable.url = "wss://gratefultogether-api-49ea7cf50543.herokuapp.com"
+  config.action_cable.allowed_request_origins = [/https:\/\/gratefultogether-68rtro4pr-caliham.vercel.app/, /http:\/\/gratefultogether-68rtro4pr-caliham.vercel.app/]
 
 end
