@@ -49,16 +49,29 @@ Returns all gratitude entries for today:
 ```
 GET /api/v1/wins
 ```
+If no entries have yet been recorded, this endpoint will return an empty array, thus:
+```
+{
+  data: []
+}
+``` 
 
 Returns all gratitude entries for a specific date (add the date in query parameters):
 ```
 GET /api/v1/wins?date=2023-08-31
 ```
+If no entries are recorded for a day, this endpoint will return an empty array, thus:
+```
+{
+  data: []
+}
+``` 
+
 Post a new gratitude entry: 
 ```
 POST /api/v1/wins
 ```
-An invalid date for a POST request will return an "unprocessable_entity" error
+If a POST request contains an invalid date or no entry, this will throw an "unprocessable_entity" error.
 
 
 #### JSON Contract
