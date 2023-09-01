@@ -15,6 +15,8 @@ This is the Backend API for the [Grateful Together App](). Grateful Together is 
     <a href="https://rubyonrails.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/rails-original-wordmark.svg" alt="Rails" height="50" /></a>  
     <a href="https://www.ruby-lang.org/en/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/ruby-original-wordmark.svg" alt="CSS3" height="50" /></a>   
     <a href="https://redis.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redis-original-wordmark.svg" alt="CSS3" height="50" /></a>   
+    <a href="https://guides.rubyonrails.org/action_cable_overview.html" target="_blank"><img style="margin: 10px" src="https://logodix.com/logo/1825959.png" alt="CSS3" height="50" /></a>   
+    <a href="https://circleci.com/" target="_blank"><img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/1200px-Circleci-icon-logo.svg.png" alt="CSS3" height="50" /></a>   
 </div>
 
 ## Usage
