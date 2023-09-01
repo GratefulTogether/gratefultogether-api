@@ -1,10 +1,10 @@
 # Grateful Together API
 [![GratefulTogether](https://circleci.com/gh/GratefulTogether/gratefultogether-api.svg?style=shield)](https://app.circleci.com/pipelines/github/GratefulTogether/gratefultogether-api)
 ## Description: 
-This is the Backend API for the [Grateful Together App](https://gratefultogether-68rtro4pr-caliham.vercel.app/). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal. This was a collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
+This is the Backend API for the [Grateful Together App](https://gratefultogether.vercel.app/). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal. This was a collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
 
 ### Application Links:
-[Grateful Together App](https://gratefultogether-68rtro4pr-caliham.vercel.app/)
+[Grateful Together App](https://gratefultogether.vercel.app/)
 
 [Front End Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
 
