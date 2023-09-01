@@ -1,11 +1,14 @@
 # Grateful Together API
 
 ## Description: 
-This is the Backend API for the [Grateful Together App](). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal. Collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
+This is the Backend API for the [Grateful Together App](https://gratefultogether-68rtro4pr-caliham.vercel.app/). Grateful Together is an application that allows groups of people to keep a central, easy to use, daily gratitude journal. This was a collaborative capstone fullstack project for Mod 4 of Turing School of Software and Design.
 
 ### Preview of App:
-[Grateful Together App](https://gratefultogether.vercel.app/)
+[Grateful Together App](https://gratefultogether-68rtro4pr-caliham.vercel.app/)
+
 [Front End Repo](https://github.com/GratefulTogether/gratefultogether-ui) 
+
+[Back End API (Deployed via Heroku)](https://gratefultogether-api-49ea7cf50543.herokuapp.com/api/v1/wins)
 
 ### Tech Stack
 - Ruby, Rails, WebSockets, ActiveRecord, PostgreSQL, Action-Cable-Testing, SimpleCov, RSpec, CI/CD with CircleCI
