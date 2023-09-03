@@ -4,6 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+#Ignore application.yml file
+config/application.yml
+
 # Ignore bundler config.
 /.bundle
 
@@ -31,3 +34,7 @@
 #Ignore simplecov coverage
 coverage
 /coverage
+
+
+
+
