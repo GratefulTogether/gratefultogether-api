@@ -6,7 +6,6 @@
 
 #Ignore application.yml file
 config/application.yml
-/config/application.yml
 
 # Ignore bundler config.
 /.bundle
